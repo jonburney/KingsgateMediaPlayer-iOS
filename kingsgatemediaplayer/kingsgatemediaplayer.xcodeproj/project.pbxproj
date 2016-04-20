@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC7452941CC8205000BA4F63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7452931CC8205000BA4F63 /* AppDelegate.swift */; };
+		FC7452961CC8205000BA4F63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7452951CC8205000BA4F63 /* ViewController.swift */; };
+		FC7452991CC8205100BA4F63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7452971CC8205100BA4F63 /* Main.storyboard */; };
+		FC74529B1CC8205100BA4F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC74529A1CC8205100BA4F63 /* Assets.xcassets */; };
+		FC74529E1CC8205100BA4F63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC74529C1CC8205100BA4F63 /* LaunchScreen.storyboard */; };
+		FC7452A91CC8205100BA4F63 /* kingsgatemediaplayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7452A81CC8205100BA4F63 /* kingsgatemediaplayerTests.swift */; };
+		FC7452B41CC8205100BA4F63 /* kingsgatemediaplayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7452B31CC8205100BA4F63 /* kingsgatemediaplayerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC7452A51CC8205100BA4F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC7452881CC8205000BA4F63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC74528F1CC8205000BA4F63;
+			remoteInfo = kingsgatemediaplayer;
+		};
+		FC7452B01CC8205100BA4F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC7452881CC8205000BA4F63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC74528F1CC8205000BA4F63;
+			remoteInfo = kingsgatemediaplayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC7452901CC8205000BA4F63 /* kingsgatemediaplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kingsgatemediaplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7452931CC8205000BA4F63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC7452951CC8205000BA4F63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC7452981CC8205100BA4F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC74529A1CC8205100BA4F63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC74529D1CC8205100BA4F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC74529F1CC8205100BA4F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7452A41CC8205100BA4F63 /* kingsgatemediaplayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kingsgatemediaplayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7452A81CC8205100BA4F63 /* kingsgatemediaplayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kingsgatemediaplayerTests.swift; sourceTree = "<group>"; };
+		FC7452AA1CC8205100BA4F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7452AF1CC8205100BA4F63 /* kingsgatemediaplayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kingsgatemediaplayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7452B31CC8205100BA4F63 /* kingsgatemediaplayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kingsgatemediaplayerUITests.swift; sourceTree = "<group>"; };
+		FC7452B51CC8205100BA4F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC74528D1CC8205000BA4F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7452A11CC8205100BA4F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7452AC1CC8205100BA4F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC7452871CC8205000BA4F63 = {
+			isa = PBXGroup;
+			children = (
+				FC7452921CC8205000BA4F63 /* kingsgatemediaplayer */,
+				FC7452A71CC8205100BA4F63 /* kingsgatemediaplayerTests */,
+				FC7452B21CC8205100BA4F63 /* kingsgatemediaplayerUITests */,
+				FC7452911CC8205000BA4F63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC7452911CC8205000BA4F63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC7452901CC8205000BA4F63 /* kingsgatemediaplayer.app */,
+				FC7452A41CC8205100BA4F63 /* kingsgatemediaplayerTests.xctest */,
+				FC7452AF1CC8205100BA4F63 /* kingsgatemediaplayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC7452921CC8205000BA4F63 /* kingsgatemediaplayer */ = {
+			isa = PBXGroup;
+			children = (
+				FC7452931CC8205000BA4F63 /* AppDelegate.swift */,
+				FC7452951CC8205000BA4F63 /* ViewController.swift */,
+				FC7452971CC8205100BA4F63 /* Main.storyboard */,
+				FC74529A1CC8205100BA4F63 /* Assets.xcassets */,
+				FC74529C1CC8205100BA4F63 /* LaunchScreen.storyboard */,
+				FC74529F1CC8205100BA4F63 /* Info.plist */,
+			);
+			path = kingsgatemediaplayer;
+			sourceTree = "<group>";
+		};
+		FC7452A71CC8205100BA4F63 /* kingsgatemediaplayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC7452A81CC8205100BA4F63 /* kingsgatemediaplayerTests.swift */,
+				FC7452AA1CC8205100BA4F63 /* Info.plist */,
+			);
+			path = kingsgatemediaplayerTests;
+			sourceTree = "<group>";
+		};
+		FC7452B21CC8205100BA4F63 /* kingsgatemediaplayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC7452B31CC8205100BA4F63 /* kingsgatemediaplayerUITests.swift */,
+				FC7452B51CC8205100BA4F63 /* Info.plist */,
+			);
+			path = kingsgatemediaplayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC74528F1CC8205000BA4F63 /* kingsgatemediaplayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7452B81CC8205100BA4F63 /* Build configuration list for PBXNativeTarget "kingsgatemediaplayer" */;
+			buildPhases = (
+				FC74528C1CC8205000BA4F63 /* Sources */,
+				FC74528D1CC8205000BA4F63 /* Frameworks */,
+				FC74528E1CC8205000BA4F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kingsgatemediaplayer;
+			productName = kingsgatemediaplayer;
+			productReference = FC7452901CC8205000BA4F63 /* kingsgatemediaplayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC7452A31CC8205100BA4F63 /* kingsgatemediaplayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7452BB1CC8205100BA4F63 /* Build configuration list for PBXNativeTarget "kingsgatemediaplayerTests" */;
+			buildPhases = (
+				FC7452A01CC8205100BA4F63 /* Sources */,
+				FC7452A11CC8205100BA4F63 /* Frameworks */,
+				FC7452A21CC8205100BA4F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC7452A61CC8205100BA4F63 /* PBXTargetDependency */,
+			);
+			name = kingsgatemediaplayerTests;
+			productName = kingsgatemediaplayerTests;
+			productReference = FC7452A41CC8205100BA4F63 /* kingsgatemediaplayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC7452AE1CC8205100BA4F63 /* kingsgatemediaplayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7452BE1CC8205100BA4F63 /* Build configuration list for PBXNativeTarget "kingsgatemediaplayerUITests" */;
+			buildPhases = (
+				FC7452AB1CC8205100BA4F63 /* Sources */,
+				FC7452AC1CC8205100BA4F63 /* Frameworks */,
+				FC7452AD1CC8205100BA4F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC7452B11CC8205100BA4F63 /* PBXTargetDependency */,
+			);
+			name = kingsgatemediaplayerUITests;
+			productName = kingsgatemediaplayerUITests;
+			productReference = FC7452AF1CC8205100BA4F63 /* kingsgatemediaplayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC7452881CC8205000BA4F63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jon Burney";
+				TargetAttributes = {
+					FC74528F1CC8205000BA4F63 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = GR293KU37Y;
+					};
+					FC7452A31CC8205100BA4F63 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = GR293KU37Y;
+						TestTargetID = FC74528F1CC8205000BA4F63;
+					};
+					FC7452AE1CC8205100BA4F63 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = GR293KU37Y;
+						TestTargetID = FC74528F1CC8205000BA4F63;
+					};
+				};
+			};
+			buildConfigurationList = FC74528B1CC8205000BA4F63 /* Build configuration list for PBXProject "kingsgatemediaplayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC7452871CC8205000BA4F63;
+			productRefGroup = FC7452911CC8205000BA4F63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC74528F1CC8205000BA4F63 /* kingsgatemediaplayer */,
+				FC7452A31CC8205100BA4F63 /* kingsgatemediaplayerTests */,
+				FC7452AE1CC8205100BA4F63 /* kingsgatemediaplayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC74528E1CC8205000BA4F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC74529E1CC8205100BA4F63 /* LaunchScreen.storyboard in Resources */,
+				FC74529B1CC8205100BA4F63 /* Assets.xcassets in Resources */,
+				FC7452991CC8205100BA4F63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7452A21CC8205100BA4F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7452AD1CC8205100BA4F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC74528C1CC8205000BA4F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7452961CC8205000BA4F63 /* ViewController.swift in Sources */,
+				FC7452941CC8205000BA4F63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7452A01CC8205100BA4F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7452A91CC8205100BA4F63 /* kingsgatemediaplayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7452AB1CC8205100BA4F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7452B41CC8205100BA4F63 /* kingsgatemediaplayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC7452A61CC8205100BA4F63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC74528F1CC8205000BA4F63 /* kingsgatemediaplayer */;
+			targetProxy = FC7452A51CC8205100BA4F63 /* PBXContainerItemProxy */;
+		};
+		FC7452B11CC8205100BA4F63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC74528F1CC8205000BA4F63 /* kingsgatemediaplayer */;
+			targetProxy = FC7452B01CC8205100BA4F63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC7452971CC8205100BA4F63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC7452981CC8205100BA4F63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC74529C1CC8205100BA4F63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC74529D1CC8205100BA4F63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC7452B61CC8205100BA4F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC7452B71CC8205100BA4F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC7452B91CC8205100BA4F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = kingsgatemediaplayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonburney.version7.kingsgatemediaplayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC7452BA1CC8205100BA4F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = kingsgatemediaplayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonburney.version7.kingsgatemediaplayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC7452BC1CC8205100BA4F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kingsgatemediaplayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonburney.version7.kingsgatemediaplayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kingsgatemediaplayer.app/kingsgatemediaplayer";
+			};
+			name = Debug;
+		};
+		FC7452BD1CC8205100BA4F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kingsgatemediaplayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonburney.version7.kingsgatemediaplayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kingsgatemediaplayer.app/kingsgatemediaplayer";
+			};
+			name = Release;
+		};
+		FC7452BF1CC8205100BA4F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kingsgatemediaplayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonburney.version7.kingsgatemediaplayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kingsgatemediaplayer;
+			};
+			name = Debug;
+		};
+		FC7452C01CC8205100BA4F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kingsgatemediaplayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonburney.version7.kingsgatemediaplayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kingsgatemediaplayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC74528B1CC8205000BA4F63 /* Build configuration list for PBXProject "kingsgatemediaplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7452B61CC8205100BA4F63 /* Debug */,
+				FC7452B71CC8205100BA4F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC7452B81CC8205100BA4F63 /* Build configuration list for PBXNativeTarget "kingsgatemediaplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7452B91CC8205100BA4F63 /* Debug */,
+				FC7452BA1CC8205100BA4F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC7452BB1CC8205100BA4F63 /* Build configuration list for PBXNativeTarget "kingsgatemediaplayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7452BC1CC8205100BA4F63 /* Debug */,
+				FC7452BD1CC8205100BA4F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC7452BE1CC8205100BA4F63 /* Build configuration list for PBXNativeTarget "kingsgatemediaplayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7452BF1CC8205100BA4F63 /* Debug */,
+				FC7452C01CC8205100BA4F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC7452881CC8205000BA4F63 /* Project object */;
+}
