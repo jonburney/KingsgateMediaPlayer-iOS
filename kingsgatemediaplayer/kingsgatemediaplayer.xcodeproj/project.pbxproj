@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FC7452941CC8205000BA4F63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7452931CC8205000BA4F63 /* AppDelegate.swift */; };
-		FC7452961CC8205000BA4F63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7452951CC8205000BA4F63 /* ViewController.swift */; };
-		FC7452991CC8205100BA4F63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7452971CC8205100BA4F63 /* Main.storyboard */; };
+		FC7452961CC8205000BA4F63 /* ViewControllerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7452951CC8205000BA4F63 /* ViewControllerHome.swift */; };
+		FC7452991CC8205100BA4F63 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7452971CC8205100BA4F63 /* Home.storyboard */; };
 		FC74529B1CC8205100BA4F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC74529A1CC8205100BA4F63 /* Assets.xcassets */; };
 		FC74529E1CC8205100BA4F63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC74529C1CC8205100BA4F63 /* LaunchScreen.storyboard */; };
 		FC7452A91CC8205100BA4F63 /* kingsgatemediaplayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7452A81CC8205100BA4F63 /* kingsgatemediaplayerTests.swift */; };
@@ -36,8 +36,8 @@
 /* Begin PBXFileReference section */
 		FC7452901CC8205000BA4F63 /* kingsgatemediaplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kingsgatemediaplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC7452931CC8205000BA4F63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC7452951CC8205000BA4F63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FC7452981CC8205100BA4F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC7452951CC8205000BA4F63 /* ViewControllerHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHome.swift; sourceTree = "<group>"; };
+		FC7452981CC8205100BA4F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		FC74529A1CC8205100BA4F63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC74529D1CC8205100BA4F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC74529F1CC8205100BA4F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,11 +97,10 @@
 		FC7452921CC8205000BA4F63 /* kingsgatemediaplayer */ = {
 			isa = PBXGroup;
 			children = (
+				FC7452C71CCEA1B500BA4F63 /* UI */,
+				FC7452C61CCEA19D00BA4F63 /* Storyboards */,
 				FC7452931CC8205000BA4F63 /* AppDelegate.swift */,
-				FC7452951CC8205000BA4F63 /* ViewController.swift */,
-				FC7452971CC8205100BA4F63 /* Main.storyboard */,
 				FC74529A1CC8205100BA4F63 /* Assets.xcassets */,
-				FC74529C1CC8205100BA4F63 /* LaunchScreen.storyboard */,
 				FC74529F1CC8205100BA4F63 /* Info.plist */,
 			);
 			path = kingsgatemediaplayer;
@@ -123,6 +122,31 @@
 				FC7452B51CC8205100BA4F63 /* Info.plist */,
 			);
 			path = kingsgatemediaplayerUITests;
+			sourceTree = "<group>";
+		};
+		FC7452C61CCEA19D00BA4F63 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FC74529C1CC8205100BA4F63 /* LaunchScreen.storyboard */,
+				FC7452971CC8205100BA4F63 /* Home.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		FC7452C71CCEA1B500BA4F63 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FC7452C81CCEA1BD00BA4F63 /* Home */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		FC7452C81CCEA1BD00BA4F63 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FC7452951CC8205000BA4F63 /* ViewControllerHome.swift */,
+			);
+			name = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +258,7 @@
 			files = (
 				FC74529E1CC8205100BA4F63 /* LaunchScreen.storyboard in Resources */,
 				FC74529B1CC8205100BA4F63 /* Assets.xcassets in Resources */,
-				FC7452991CC8205100BA4F63 /* Main.storyboard in Resources */,
+				FC7452991CC8205100BA4F63 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC7452961CC8205000BA4F63 /* ViewController.swift in Sources */,
+				FC7452961CC8205000BA4F63 /* ViewControllerHome.swift in Sources */,
 				FC7452941CC8205000BA4F63 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,12 +320,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FC7452971CC8205100BA4F63 /* Main.storyboard */ = {
+		FC7452971CC8205100BA4F63 /* Home.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FC7452981CC8205100BA4F63 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
 		FC74529C1CC8205100BA4F63 /* LaunchScreen.storyboard */ = {
@@ -404,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = kingsgatemediaplayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -416,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = kingsgatemediaplayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -455,6 +481,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jonburney.version7.kingsgatemediaplayerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				TEST_TARGET_NAME = kingsgatemediaplayer;
 			};
 			name = Debug;
@@ -466,6 +493,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jonburney.version7.kingsgatemediaplayerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				TEST_TARGET_NAME = kingsgatemediaplayer;
 			};
 			name = Release;
